@@ -1,6 +1,7 @@
 # etherscan-assignment
 
 #HOW TO RUN
+
 The following steps to run the application:
 1.	Read this file (readme.docx)
 2.	Install MySQL in your machine
@@ -10,6 +11,7 @@ The following steps to run the application:
 Thank you!
 
 #OVERVIEW
+
 I have completed the assignment with full of required features.
 I created a MySQL database with the given script. Then I use the Entity Framework to connect to it.
 The hierarchy level is (a solution with 3 projects inside):
@@ -24,6 +26,7 @@ Basically, I have completed the requirements. However, I found that there are so
 4.	Move the logic to the Service layer instead of Controller.
 
 #PART 1
+
 User see a SPA with the input form, pie chart and table of data.
 The input form validates all input data exist or not.
 User can create a new token here, then the chart and the table will reflect accordingly.
@@ -32,9 +35,11 @@ User can edit a token by clicking Edit button, the selected token will appear in
 User can export the data table to a csv file. 
 
 #PART 2
+
 User can go to the detail page when clicking on the Symbol value.
   
 #PART 3
+
 I created a Console Application to pull the token price from the given API
 It runs every 5 mins. The simplest way is to use an infinite loop and sleep 5 mins after processing.
 The idea is:
