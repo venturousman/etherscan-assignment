@@ -1,0 +1,17 @@
+﻿.bs-example {
+    background-color: #fff;
+    border-color: #ddd;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px 4px 0 0;
+    padding: 0 15px;
+}
+
+#tbl-detail-caption {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#tbl-detail-body .price {
+    font-weight: bold;
+}
